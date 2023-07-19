@@ -363,6 +363,8 @@ button {
     width: 374px;
     flex-shrink: 0;
     background-color: #090823;
+        padding: 30px 0 20px 20px;
+
 
 }
 
@@ -372,7 +374,7 @@ button {
     flex-shrink: 0;
     font-size: 20px;
     border-radius: 0 30px 0 30px;
-    padding:  50px;
+    /* padding:  50px; */
 
 }
 
@@ -382,6 +384,7 @@ button {
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+    padding: 20px;
 
 }
 
@@ -393,6 +396,7 @@ button {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding: 20px;
 }
 
 .discuss  button {
@@ -407,7 +411,7 @@ button {
     background: var(--3, linear-gradient(158deg, #D10ED1 0%, #10A3DA 100%));
     width: 103px;
     border: none;
-
+    padding: 20px;
 
 }
 
@@ -418,7 +422,8 @@ button {
     gap: 10px;
     flex-shrink: 0;
     border-radius: 5px;
-    color: #FFF ;   
+    color: #FFF ; 
+    padding: 20px;  
 
 }
 
@@ -426,7 +431,6 @@ button {
     flex-wrap: wrap;
     gap: 20px;
     margin-bottom: 186px;
-    padding: 20px 0;
 }
 
 .our {
@@ -607,7 +611,7 @@ html{
     body{
     overflow: hidden;
     flex-direction: column;
-    border: 10px solid red;
+    /* border: 10px solid red; */
 }
     .q1{
         position: absolute;
@@ -706,7 +710,7 @@ html{
         left: 30px;
         max-width:  100%;
         /* height: 600px; */
-        /* background-color: red; */
+        background-color: red;
         
        
 
